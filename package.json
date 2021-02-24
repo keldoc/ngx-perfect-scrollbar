@@ -1,10 +1,9 @@
 {
-  "name": "ngx-perfect-scrollbar",
+  "name": "@keldoc/ngx-perfect-scrollbar",
   "description": "Angular wrapper library for Perfect Scrollbar",
   "bugs": "https://github.com/zefoy/ngx-perfect-scrollbar/issues",
-  "version": "10.0.1",
+  "version": "10.0.1-keldoc.0",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "ng": "ng",
     "lint": "ng lint",
@@ -46,7 +45,7 @@
     "@angular/flex-layout": "10.0.0-beta.32",
     "@angular/platform-browser": "^10.0.0",
     "@angular/platform-browser-dynamic": "^10.0.0",
-    "perfect-scrollbar": "^1.5.0",
+    "perfect-scrollbar": "npm:@keldoc/perfect-scrollbar@1.5.0-keldoc.0",
     "resize-observer-polyfill": "^1.5.0"
   },
   "devDependencies": {
