@@ -43,9 +43,9 @@ npm install ngx-perfect-scrollbar --save
 Providing the global configuration is optional and when used you should only provide the configuration in your root module.
 
 ```javascript
-import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
-import { PERFECT_SCROLLBAR_CONFIG } from 'ngx-perfect-scrollbar';
-import { PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
+import { PerfectScrollbarModule } from '@keldoc/ngx-perfect-scrollbar';
+import { PERFECT_SCROLLBAR_CONFIG } from '@keldoc/ngx-perfect-scrollbar';
+import { PerfectScrollbarConfigInterface } from '@keldoc/ngx-perfect-scrollbar';
 
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true
